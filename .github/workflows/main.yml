@@ -48,5 +48,4 @@ jobs:
           manifests: |
               k8s/deployment.yaml
           images: |
-            tags: danieldevpy/fake-shop-desafio:v${{ github.run_number }}
-
+            danieldevpy/fake-shop-desafio:v${{ github.run_number }}
